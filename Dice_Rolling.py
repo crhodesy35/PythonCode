@@ -28,11 +28,11 @@ def memoir_dice_roll(dice_num):
 
 #For Fallout Board Game
 def VATs_Dice_Roll(dice_num):
-    memoir_dice = ["Head", "Arms 1 VAT", "Arms", "Chest 2 VAT", "Chest 1 VAT", "Chest "]
+    fallout_dice = ["Head", "Arms 1 VAT", "Arms", "Chest 2 VAT", "Chest 1 VAT", "Chest "]
     roll_again = 0
     while roll_again < dice_num:
         print("You rolled a....")
-        print(random.choice(memoir_dice))
+        print(random.choice(fallout_dice))
         roll_again += 1
 
 # Dice Roll - comment out the roll you don't need.
